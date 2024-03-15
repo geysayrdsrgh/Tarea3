@@ -1,0 +1,47 @@
+.padre
+{
+    background-color: aquamarine;
+    display: grid;
+   /* grid-template-columns: 50% 20% auto  auto;
+    grid-template-rows: 250px 100px auto;
+    justify-content: space-between;*/
+    /*align-items: center;*/
+
+}
+.hijo
+{
+    background-color: darkturquoise;
+   /* width:150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: bisque;
+    font-size: 50px;
+    /*display: inline-block;*/
+
+}
+.hijo1
+{
+    background-color: burlywood;
+     border-style: solid;
+     border-color: bisque;
+     font-size: 50px;
+     grid-column: 1/5;
+
+}.hijo2
+{
+    background-color: greenyellow;
+     border-style: solid;
+     border-color: bisque;
+     font-size: 50px;
+     grid-column: 1/4;
+
+}
+.hijo4
+{
+    background-color:royalblue;
+     border-style: solid;
+     border-color: bisque;
+     font-size: 50px;
+     grid-row: 3/5;
+
+}
